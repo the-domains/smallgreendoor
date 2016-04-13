@@ -1,28 +1,40 @@
-name: smallgreendoor
 favicon: null
-layout_spectrum: 0.497
-typography_spectrum: 0.253
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: smallgreendoor
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.75
+  brandStrength: 0.7845468937885016
+  rhythmicContrast: 0.25
   brandColors:
     - '#f9f9f9'
     - '#a5a5a5'
     - '#838383'
     - '#4f4f4f'
     - '#272727'
-  brandStrength: 0.7845468937885016
   lightness: 0.75
-  saturation: 0.75
-  rhythmicContrast: 0.25
-purpose: []
+typography_spectrum: 0.253
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.7765958
+analytics:
+  twitter: null
+  google: null
+  facebook: null
